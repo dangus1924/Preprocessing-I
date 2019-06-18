@@ -82,7 +82,7 @@ summary,
 time,
 mark,
 audio,
-video {
+video img {
   margin: 0;
   padding: 0;
   border: 0;
@@ -133,5 +133,53 @@ table {
 html,
 body {
   height: 100%;
-  
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 25px;
+  margin: 1px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+img {
+  width: 30%;
+  height: auto;
+  margin: 45px 25px 5px 25px;
+}
+.top-section {
+  background-color: #e5ebeb;
+  margin: 25px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 0.1px;
+  margin: 15px;
+}
+button {
+  background-color: grey;
+  color: white;
+  height: 27px;
+  margin: 15px;
+}
+p {
+  margin: 15px;
+}
+h2 {
+  font-size: 25px;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+}
+.border {
+  border: solid grey;
+}
+li {
+  border-top: solid lightgray;
+  border-bottom: solid lightgray border-left;
 }
